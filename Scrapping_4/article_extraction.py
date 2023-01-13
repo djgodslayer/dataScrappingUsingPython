@@ -5,10 +5,10 @@ import requests
 df=pd.read_csv("scienceNews_articles.csv")
 num=len(df.index)
 def text_extract(url):
-    print("Connecting to Server.......")
+    print("\nConnecting to Server.......")
     r=requests.get(url)
     if r.status_code==200:
-        print("\nGetting your files ready......")
+        print("\nGetting your file ready......")
         htmlcontent=r.content
         soup=BeautifulSoup(htmlcontent,"html.parser")
         h=soup.find("h1",class_={"header-default__title___2wL7r"})
