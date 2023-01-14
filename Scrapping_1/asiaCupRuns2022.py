@@ -55,9 +55,9 @@ for j in range(len(cricData['Player'])):
 cricketStats=pd.DataFrame(cricData)
 # print(cricketStats)
 
-cricketStats.to_csv('C:\\Users\\divya\\OneDrive\\Documents\\Github\\Asia_Cup_2022_Batting_Stats.csv', index=False)
+cricketStats.to_csv('Asia_Cup_2022_Batting_Stats.csv', index=False)
 
-cstats= pd.read_csv('C:\\Users\\divya\\OneDrive\\Documents\\Github\\Asia_Cup_2022_Batting_Stats.csv')
+cstats= pd.read_csv('Asia_Cup_2022_Batting_Stats.csv')
 print(cstats)
 
 
