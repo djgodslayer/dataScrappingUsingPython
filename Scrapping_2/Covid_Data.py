@@ -59,8 +59,8 @@ for i in range(len(headers)):
 covidStats=pd.DataFrame(covidData)
 # print(covidStats)
 
-covidStats.to_csv("C:\\Users\\divya\\OneDrive\\Documents\\Github\\Scrapping_2\\Covid_Data_2022.csv", index=False)
+covidStats.to_csv("Covid_Data_2022.csv", index=False)
 
-cstats=pd.read_csv("C:\\Users\\divya\\OneDrive\\Documents\\Github\\Scrapping_2\\Covid_Data_2022.csv")
+cstats=pd.read_csv("Covid_Data_2022.csv")
 print(cstats)
 # %%
