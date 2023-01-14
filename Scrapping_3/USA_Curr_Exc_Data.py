@@ -60,7 +60,7 @@ for j in table.find_all('tr'):
 CurrExcUSA=pd.DataFrame(ExcData)
 # print(CurrExcUSA)
 
-CurrExcUSA.to_csv("C:\\Users\\divya\\OneDrive\\Documents\\Github\\Scrapping_3\\USA_Currency_Exc_2023.csv", index=False)
+CurrExcUSA.to_csv("Scrapping_3\\USA_Currency_Exc_2023.csv", index=False)
 
-USA_Data=pd.read_csv("C:\\Users\\divya\\OneDrive\\Documents\\Github\\Scrapping_3\\USA_Currency_Exc_2023.csv")
+USA_Data=pd.read_csv("Scrapping_3\\USA_Currency_Exc_2023.csv")
 # print(USA_Data)
